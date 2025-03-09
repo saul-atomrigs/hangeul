@@ -1,6 +1,6 @@
 {
   "name": "@saul-atomrigs/hangul-format",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Korean language utility functions",
   "main": "index.js",
   "scripts": {
