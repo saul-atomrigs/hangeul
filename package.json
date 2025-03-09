@@ -1,6 +1,6 @@
 {
   "name": "@saul-atomrigs/hangul-format",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Korean language utility functions",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,12 @@
     "url": "git+https://github.com/saul-atomrigs/hangul-format.git"
   },
   "author": "saul-atomrigs",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/saul-atomrigs/hangul-format/issues"
   },
-  "homepage": "https://github.com/saul-atomrigs/hangul-format#readme"
+  "homepage": "https://github.com/saul-atomrigs/hangul-format#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
