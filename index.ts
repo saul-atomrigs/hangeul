@@ -1,4 +1,6 @@
-import { KRW } from './constants';
+export const KRW = {
+  '1만': 10_000,
+};
 
 export const krw = (value: string | number): string => {
   const num = typeof value === 'string' ? parseInt(value) || 0 : value || 0;
