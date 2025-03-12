@@ -13,21 +13,14 @@
     "dist"
   ],
   "scripts": {
-    "login": "npm login",
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "publish": "npm publish",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saul-atomrigs/hangeul.git"
   },
-  "author": "saul-atomrigs",
-  "bugs": {
-    "url": "https://github.com/saul-atomrigs/hangeul/issues"
-  },
-  "homepage": "https://github.com/saul-atomrigs/hangeul#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
