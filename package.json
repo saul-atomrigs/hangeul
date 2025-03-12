@@ -1,6 +1,6 @@
 {
   "name": "@saul-atomrigs/hangeul",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Korean language utility functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
