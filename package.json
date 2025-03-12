@@ -2,10 +2,15 @@
   "name": "@saul-atomrigs/hangeul",
   "version": "1.0.9",
   "description": "Korean language utility functions",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "login": "npm login",
-    "build": "npm run build",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +26,8 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
   }
 }
